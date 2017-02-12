@@ -1,6 +1,6 @@
 FROM ubuntu:12.04
 
-MAINTAINER Yves Hoppe
+LABEL authors="Yves Hoppe, Robert Deutz"
 
 # Install
 RUN apt-get update \
